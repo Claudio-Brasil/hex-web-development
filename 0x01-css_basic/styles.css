@@ -8,10 +8,14 @@ main {
 	flex: auto;
 }
 article {
-	flex: 2 auto;
-	overflow-y: auto
+	flex: 2;
+	overflow-y: auto;
 }
 aside {
 	flex: 1 1 auto;
+	overflow-y: auto;
+}
+h1 {
+	flex: 2;
 	overflow-y: auto;
 }
