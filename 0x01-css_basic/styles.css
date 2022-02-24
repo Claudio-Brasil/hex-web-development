@@ -9,13 +9,14 @@ main {
 }
 article {
 	flex: 2;
+	flex-direction: column;
 	overflow-y: auto;
 }
 aside {
-	flex: 1 1 auto;
+	flex: 1;
 	overflow-y: auto;
 }
-h1 {
-	flex: 2;
-	overflow-y: auto;
+header {
+	display: flex;
+	justify-content: center;
 }
